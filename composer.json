@@ -1,0 +1,19 @@
+{
+    "name": "bobbyholtzner/mailchimp",
+    "description": "A simple wrapper of the Mailchimp v3 API for Laravel 5.2.",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bobby Holtzner",
+            "email": "me@bobbyholtzner.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
