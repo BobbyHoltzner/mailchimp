@@ -13,7 +13,7 @@ class MailchimpServiceProvider extends ServiceProvider
   public function boot()
   {
     $this->publishes([
-      __DIR__ . '/config/mailchimp.php' => config_path('mailchimp.php');
+      __DIR__ . '/config/mailchimp.php' => config_path('mailchimp.php'),
     ]);
   }
 
@@ -28,7 +28,7 @@ class MailchimpServiceProvider extends ServiceProvider
 
       return new Mailchimp($config['api_key']);
     });
-  }  
+  }
 }
 
  ?>
